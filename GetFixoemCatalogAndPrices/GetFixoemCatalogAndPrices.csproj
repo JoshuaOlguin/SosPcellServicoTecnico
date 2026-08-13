@@ -99,6 +99,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\StringNumberConverter.cs" />
     <Compile Include="Dto\Category.cs" />
     <Compile Include="Dto\Item.cs" />
     <Compile Include="Dto\Page.cs" />
