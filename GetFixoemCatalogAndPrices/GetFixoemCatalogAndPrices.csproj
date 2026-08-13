@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{341B1C46-2080-426D-AD08-473253B94B0D}</ProjectGuid>
+    <ProjectGuid>{6F8B196E-DE53-2746-EA6C-22B2699E6F93}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>GetFixoemCatalogAndPrices</RootNamespace>
     <AssemblyName>GetFixoemCatalogAndPrices</AssemblyName>
