@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using GetFixoemCatalogAndPrices.Converters;
+using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 namespace GetFixoemCatalogAndPrices.Dto
@@ -21,9 +22,11 @@ namespace GetFixoemCatalogAndPrices.Dto
         public string Link { get; set; } = string.Empty;
 
         [JsonPropertyName("price")]
+        [JsonConverter(typeof(StringNumberConverter))]
         public string Price { get; set; } = string.Empty;
 
         [JsonPropertyName("list_price")]
+        [JsonConverter(typeof(StringNumberConverter))]
         public string ListPrice { get; set; } = string.Empty;
 
         [JsonPropertyName("quantity")]
